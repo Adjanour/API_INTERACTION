@@ -47,6 +47,19 @@ To retrieve data from the API, you can use the `getRequest` function. It simplif
 $api_url = "http://127.0.0.1:8000/employees";
 $data = getRequest($api_url);
 ```
+### Sending POST Requests 
+
+This function simplifies the process of sending  POST requests to an API endpoint 
+
+**Parameters:**
+
+- `$api_url` (string): The URL of the API endpoint you want to send a GET request to.
+
+**Returns:**
+
+- A PHP associative array containing the JSON response from the API.
+
+**Example Usage:**
 ## License
 This project is licensed under the MIT License 
 
