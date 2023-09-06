@@ -23,13 +23,13 @@
             <input type="text" class="form-control" placeholder="NAME" name="NAME" required>
         </div>
         <div class="mb-3">
-            <input type="text" class="form-control" placeholder="Username" name="DEPARTMENT" required>
+            <input type="text" class="form-control" placeholder="DEPARTMENT" name="DEPARTMENT" required>
         </div>
         <div class="mb-3">
-            <input type="text" class="form-control" placeholder="Email Address" name="DATE" required>
+            <input type="text" class="form-control" placeholder="DATE" name="DATE" required>
         </div>
         <div class="mb-3">
-            <input type="text" class="form-control" placeholder="Password" name="PROFILE"  required>
+            <input type="text" class="form-control" placeholder="PROFILE" name="PROFILE"  required>
         </div>
 
         <input type="submit" class="btn btn-primary" name="Submit" value="Save Record">
