@@ -36,6 +36,17 @@ To run this PHP app, you need:
   $api_key = "your-api-key";
   ```
 
+## Usage
+
+### Sending GET Requests
+
+To retrieve data from the API, you can use the `getRequest` function. It simplifies the process of making GET requests and decoding JSON responses.
+
+```php
+// Example usage:
+$api_url = "http://127.0.0.1:8000/employees";
+$data = getRequest($api_url);
+```
 ## License
 This project is licensed under the MIT License 
 
